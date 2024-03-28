@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eray YIKAR\\ceng382\\Ceng.382.23.24.s.202011074\\Project\\Project.csproj",
+      "projectUniqueName": "C:\\Users\\Eray YIKAR\\Desktop\\ceng382\\Ceng.382.23.24.s.202011074\\Project\\Project.csproj",
       "projectName": "Project",
-      "projectPath": "C:\\Users\\Eray YIKAR\\ceng382\\Ceng.382.23.24.s.202011074\\Project\\Project.csproj",
+      "projectPath": "C:\\Users\\Eray YIKAR\\Desktop\\ceng382\\Ceng.382.23.24.s.202011074\\Project\\Project.csproj",
       "packagesPath": "C:\\Users\\Eray YIKAR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eray YIKAR\\ceng382\\Ceng.382.23.24.s.202011074\\Project\\obj\\",
+      "outputPath": "C:\\Users\\Eray YIKAR\\Desktop\\ceng382\\Ceng.382.23.24.s.202011074\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Eray YIKAR\\AppData\\Roaming\\NuGet\\NuGet.Config"
