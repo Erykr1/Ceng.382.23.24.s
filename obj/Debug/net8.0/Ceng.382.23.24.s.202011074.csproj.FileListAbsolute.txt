@@ -1,0 +1,6 @@
+C:\Users\Eray YIKAR\Desktop\ceng382\Ceng.382.23.24.s.202011074\obj\Debug\net8.0\Ceng.382.23.24.s.202011074.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eray YIKAR\Desktop\ceng382\Ceng.382.23.24.s.202011074\obj\Debug\net8.0\Ceng.382.23.24.s.202011074.AssemblyInfoInputs.cache
+C:\Users\Eray YIKAR\Desktop\ceng382\Ceng.382.23.24.s.202011074\obj\Debug\net8.0\Ceng.382.23.24.s.202011074.AssemblyInfo.cs
+C:\Users\Eray YIKAR\Desktop\ceng382\Ceng.382.23.24.s.202011074\obj\Debug\net8.0\Ceng.382.23.24.s.202011074.csproj.CoreCompileInputs.cache
+C:\Users\Eray YIKAR\Desktop\ceng382\Ceng.382.23.24.s.202011074\obj\Debug\net8.0\Ceng.382.23.24.s.202011074.sourcelink.json
+C:\Users\Eray YIKAR\Desktop\ceng382\Ceng.382.23.24.s.202011074\obj\Debug\net8.0\Ceng.382.23.24.s.202011074.csproj.AssemblyReference.cache
