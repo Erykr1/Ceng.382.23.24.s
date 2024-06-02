@@ -1,0 +1,30 @@
+@page
+@model ReservationSystem.Pages.LoginModel
+
+<h1>Giriş Yap</h1>
+
+<form method="post">
+    <!-- E-posta giriş alanı -->
+    <div class="form-group">
+        <label asp-for="Email" class="control-label">E-posta</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <!-- Şifre giriş alanı -->
+    <div class="form-group">
+        <label asp-for="Password" class="control-label">Şifre</label>
+        <input asp-for="Password" class="form-control" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <!-- Giriş yap butonu -->
+    <div class="form-group">
+        <input type="submit" value="Giriş Yap" class="btn btn-primary" />
+    </div>
+</form>
+
+<!-- Kayıt ol bağlantısı -->
+<div>
+    <a asp-page="/Register">Hesabınız yok mu? Kayıt Olun</a>
+</div>

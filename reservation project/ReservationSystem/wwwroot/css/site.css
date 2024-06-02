@@ -1,0 +1,25 @@
+html {
+  font-size: 14px; /* Küçük ekranlarda font boyutu */
+  position: relative;
+  min-height: 100%;
+}
+
+/* Orta boy ve daha büyük ekranlarda font boyutunu büyüt */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin-bottom: 60px; /* Alt kısımda boşluk bırak */
+}
+
+/* Fokuslandığında görsel olarak öne çıkan elementler */
+.btn:focus, 
+.btn:active:focus, 
+.btn-link.navlink:focus, 
+.form-control:focus, 
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb; /* İki katmanlı gölge efekti */
+}

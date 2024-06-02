@@ -1,0 +1,55 @@
+@page
+@model ReservationSystem.Pages.RegisterModel
+
+<h1>Kayıt Ol</h1>
+
+<form method="post">
+    <!-- Kullanıcı adı girişi -->
+    <div class="form-group">
+        <label asp-for="User.UserName" class="control-label">Kullanıcı Adı</label>
+        <input asp-for="User.UserName" class="form-control" />
+        <span asp-validation-for="User.UserName" class="text-danger"></span>
+    </div>
+
+    <!-- Şifre girişi -->
+    <div class="form-group">
+        <label asp-for="User.Password" class="control-label">Şifre</label>
+        <input asp-for="User.Password" class="form-control" type="password" />
+        <span asp-validation-for="User.Password" class="text-danger"></span>
+    </div>
+
+    <!-- E-posta girişi -->
+    <div class="form-group">
+        <label asp-for="User.Email" class="control-label">E-posta</label>
+        <input asp-for="User.Email" class="form-control" />
+        <span asp-validation-for="User.Email" class="text-danger"></spo>
+    </div>
+
+    <!-- Cinsiyet seçimi -->
+    <div class="form-group">
+        <label asp-for="User.Gender" class="control-label">Cinsiyet</label>
+        <select asp-for="User.Gender" class="form-control">
+            <option value="Male">Erkek</option>
+            <option value="Female">Kadın</option>
+            <option value="Other">Diğer</option>
+        </select>
+        <span asp-validation-for="User.Gender" class="text-danger"></span>
+    </div>
+
+    <!-- Yaş girişi -->
+    <div class="form-group">
+        <label asp-for="User.Age" class="control-label">Yaş</label>
+        <input asp-for="User.Age" class="form-control" type="number" />
+        <span asp-validation-for="User.Age" class "text-danger"></span>
+    </div>
+
+    <!-- Kayıt ol butonu -->
+    <div class="form-group">
+        <input type="submit" value="Kayıt Ol" class="btn btn-primary" />
+    </div>
+</form>
+
+<!-- Zaten hesabı var mı? Giriş yap sayfasına yönlendirme -->
+<div>
+    <a asp-page="/Login">Zaten bir hesabınız var mı? Giriş Yapın</a>
+</div>

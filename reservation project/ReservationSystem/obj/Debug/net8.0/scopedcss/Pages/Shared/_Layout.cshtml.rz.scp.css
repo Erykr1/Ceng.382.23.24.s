@@ -1,0 +1,62 @@
+/* Dökümantasyon için bakınız: https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification */
+
+/* Navbar markası için modern ve duyarlı tasarım. */
+a.navbar-brand[b-6ter5pw8ix] {
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Uzun metinler için ellipsis kullan */
+}
+
+/* Ana bağlantı stilleri, daha canlı bir mavi renk tonu ile. */
+a[b-6ter5pw8ix] {
+  color: #0096d6;
+  transition: color 0.3s ease-in-out; /* Renk değişimini yumuşat */
+}
+
+/* Ana butonlar için modern görünüm ve hissiyat. */
+.btn-primary[b-6ter5pw8ix] {
+  color: #ffffff;
+  background-color: #006db3;
+  border: 2px solid #005495;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease-in-out; /* Arka plan rengi animasyonu */
+}
+
+/* Aktif nav link için dinamik ve çekici bir stil. */
+.nav-pills .nav-link.active[b-6ter5pw8ix], .nav-pills .show > .nav-link[b-6ter5pw8ix] {
+  color: #ffffff;
+  background-color: #ff4500; /* Canlı kırmızı tonu */
+  border: 1px solid #e63900; /* Daha koyu bir kırmızı çerçeve */
+}
+
+/* Üst ve alt sınırlar için minimalist ve zarif bir çözüm. */
+.border-top[b-6ter5pw8ix], .border-bottom[b-6ter5pw8ix] {
+  border-color: #d2d2d2; /* Daha modern bir gri tonu */
+}
+
+/* Kutu gölgesi ile görsel derinlik kazandırma. */
+.box-shadow[b-6ter5pw8ix] {
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* Gizlilik politikasını kabul et butonu için sade ve şık tasarım. */
+button.accept-policy[b-6ter5pw8ix] {
+  font-size: 1.1rem; /* Daha büyük yazı boyutu */
+  background-color: transparent; /* Şeffaf arka plan */
+  color: #007bff; /* Parlak mavi */
+  border: 1px solid #007bff; /* Mavi çerçeve */
+  padding: 0.375rem 0.75rem;
+  transition: all 0.3s ease; /* Yumuşak geçiş efektleri */
+}
+
+/* Footer için mutlak konumlandırma ve geniş bir düzen. */
+.footer[b-6ter5pw8ix] {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40; /* Koyu gri arka plan */
+  color: #f8f9fa; /* Açık yazı rengi */
+  text-align: center;
+  padding: 1rem 0; /* Daha geniş padding */
+}

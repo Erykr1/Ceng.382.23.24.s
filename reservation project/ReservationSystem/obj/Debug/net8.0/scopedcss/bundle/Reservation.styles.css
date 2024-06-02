@@ -1,0 +1,68 @@
+/* Dökümantasyon için bakınız: https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+   Bu link, statik web varlıklarınızı nasıl paketleyeceğiniz ve minify edeceğiniz hakkında detaylar sunar. */
+
+/* Navbar markası için modern stil */
+a.navbar-brand[b-6ter5pw8ix] {
+  white-space: nowrap; /* Kelimeleri yeni satıra taşımaz */
+  text-align: center; /* Merkezde hizalar */
+  overflow: hidden; /* Taşan içeriği keser */
+  text-overflow: ellipsis; /* Taşan metinler için '...' kullanır */
+}
+
+/* Linkler için belirgin ve çekici bir mavi ton */
+a[b-6ter5pw8ix] {
+  color: #007bff; /* Parlak mavi ton */
+  transition: color 0.3s ease-in-out; /* Renk geçişi animasyonu */
+}
+
+/* Ana butonlar için stil tanımlamaları */
+.btn-primary[b-6ter5pw8ix] {
+  color: #ffffff; /* Beyaz metin */
+  background-color: #0062cc; /* Daha koyu mavi arka plan */
+  border-color: #005cbf; /* Buton kenarları için bir ton koyu mavi */
+  padding: 0.375rem 0.75rem; /* İç boşluk */
+  border-radius: 0.25rem; /* Kenarları yuvarlaklaştır */
+  transition: background-color 0.2s; /* Arka plan rengi değişimi için yumuşak geçiş */
+}
+
+/* Aktif durumdaki gezinti linkleri için dinamik stil */
+.nav-pills .nav-link.active[b-6ter5pw8ix], .nav-pills .show > .nav-link[b-6ter5pw8ix] {
+  color: #fff; /* Beyaz metin */
+  background-color: #28a745; /* Yeşil arka plan */
+  border: 1px solid #218838; /* Sınır için yeşilin daha koyu tonu */
+}
+
+/* Üst ve alt kenar için sade sınır stillemesi */
+.border-top[b-6ter5pw8ix] {
+  border-top: 2px solid #dee2e6; /* Açık gri sınır */
+}
+.border-bottom[b-6ter5pw8ix] {
+  border-bottom: 2px solid #dee2e6; /* Açık gri sınır */
+}
+
+/* Kutu gölgesi efektiyle görsel derinlik */
+.box-shadow[b-6ter5pw8ix] {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Orta derecede gölge */
+}
+
+/* Politika kabul butonu için minimalist stil */
+button.accept-policy[b-6ter5pw8ix] {
+  font-size: 1.25rem; /* Büyük font boyutu */
+  color: #17a2b8; /* Canlı turkuaz mavi */
+  background-color: transparent; /* Şeffaf arka plan */
+  border: none; /* Çerçeve yok */
+  padding: 0.5rem 1rem; /* Geniş iç boşluk */
+  transition: all 0.3s ease; /* Tüm geçişler için yumuşak animasyon */
+}
+
+/* Footer için tam genişlikte sabit konumlandırma */
+.footer[b-6ter5pw8ix] {
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Tam sayfa genişliği */
+  background-color: #343a40; /* Koyu gri arka plan */
+  color: #ffffff; /* Beyaz metin */
+  text-align: center; /* Merkezi hizalama */
+  padding: 1rem 0; /* Üst ve alttan boşluk */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Üstten gelen gölge */
+}

@@ -1,0 +1,39 @@
+@page
+@model HotelReservationSystem.Pages.CreateReservationModel
+@{
+    ViewData["Title"] = "Create Reservation"; // Sayfa başlığını ayarla
+}
+
+<h1>Create Reservation</h1>
+
+<!-- Rezervasyon oluşturma formu -->
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Reservation.RoomId" class="control-label">Room</label> <!-- Oda seçimi için etiket -->
+        <select asp-for="Reservation.RoomId" class="form-control">
+            @foreach (var room in Model.Rooms) // Mevcut odaları döngü ile listele
+            {
+                <option value="@room.Id">@room.Name</option>
+            }
+        </select>
+        <span asp-validation-for="Reservation.RoomId" class="text-danger"></span> <!-- Doğrulama mesajı -->
+    </div>
+    <div class="form-group">
+        <label asp-for="Reservation.StartDate" class="control-label">Start Date</label> <!-- Başlangıç tarihi için etiket -->
+        <input asp-for="Reservation.StartDate" class="form-control" type="date" />
+        <span asp-validation-for="Reservation.StartDate" class="text-danger"></span> <!-- Doğrulama mesajı -->
+    </div>
+    <div class="form-group">
+        <label asp-for="Reservation.EndDate" class="control-label">End Date</label> <!-- Bitiş tarihi için etiket -->
+        <input asp-for="Reservation.EndDate" class="form-control" type="date" />
+        <span asp-validation-for="Reservation.EndDate" class="text-danger"></span> <!-- Doğrulama mesajı -->
+    </div>
+    <div class="form-group">
+        <label asp-for="Reservation.UserName" class="control-label">User Name</label> <!-- Kullanıcı adı için etiket -->
+        <input asp-for="Reservation.UserName" class="form-control" readonly /> <!-- Kullanıcı adı salt okunur -->
+        <span asp-validation-for="Reservation.UserName" class="text-danger"></span> <!-- Doğrulama mesajı -->
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" /> <!-- Gönder butonu -->
+    </div>
+</form>
